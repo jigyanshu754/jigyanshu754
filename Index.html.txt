@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Jiggu Education - Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+<style>
+body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+background: #f6f8fc;
+color: #222;
+}
+header {
+background: #2f80ed;
+color: #fff;
+padding: 2rem 0;
+text-align: center;
+box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+header h1 {
+margin: 0 0 0.5rem;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+letter-spacing: 2px;
+}
+header p {
+margin: 0;
+font-size: 1.3rem;
+}
+nav {
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+background: #fff;
+box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+padding: 1rem 0;
+}
+nav a {
+text-decoration: none;
+color: #2f80ed;
+font-weight: 600;
+font-size: 1.07rem;
+transition: color 0.2s;
+}
+nav a:hover {
+color: #f2994a;
+}
+.hero {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 2rem auto;
+max-width: 800px;
+background: #fff;
+padding: 2rem;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.hero img {
+width: 110px;
+margin-bottom: 1rem;
+}
+.hero h2 {
+font-size: 2rem;
+margin: 0 0 0.5rem;
+color: #333;
+}
+.hero p {
+font-size: 1.16rem;
+margin: 0 0 1.5rem;
+}
+.cta-btn {
+background: linear-gradient(90deg, #2f80ed 60%, #f2994a 100%);
+color: #fff;
+border: none;
+border-radius: 6px;
+padding: 0.7rem 2.2rem;
+font-size: 1.12rem;
+font-weight: bold;
+cursor: pointer;
+box-shadow: 0 2px 6px rgba(47,128,237,0.12);
+transition: background 0.2s;
+}
+.cta-btn:hover {
+background: linear-gradient(90deg, #f2994a 60%, #2f80ed 100%);
+}
+.features {
+display: flex;
+gap: 2rem;
+max-width: 900px;
+margin: 2.5rem auto;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.feature {
+flex: 1 1 220px;
+background: #fff;
+border-radius: 10px;
+padding: 1.5rem;
+box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+text-align: center;
+}
+.feature h3 {
+color: #2f80ed;
+margin-bottom: 0.5rem;
+font-size: 1.2rem;
+}
+.feature p {
+font-size: 1rem;
+color: #666;
+}
+footer {
+background: #2f80ed;
+color: #fff;
+text-align: center;
+padding: 1rem 0;
+margin-top: 3rem;
+}
+@media (max-width: 900px) {
+.features {
+flex-direction: column;
+gap: 1rem;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Jiggu Education</h1>
+<p>Empowering Learners to Achieve More</p>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">Courses</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+<section class="hero">
+<img src="https://img.icons8.com/color/96/000000/graduation-cap.png" alt="Education Icon">
+<h2>Welcome to Jiggu's Learning Hub</h2>
+<p>
+Discover modern online courses, resources, and mentorship to accelerate your learning journey. <br>
+Built for students, professionals, and lifelong learners.
+</p>
+<button class="cta-btn">Explore Courses</button>
+</section>
+<section class="features">
+<div class="feature">
+<h3>Interactive Courses</h3>
+<p>Engage with hands-on lessons, quizzes, and projects to build real skills.</p>
+</div>
+<div class="feature">
+<h3>Expert Mentors</h3>
+<p>Get guidance from experienced instructors and expand your knowledge.</p>
+</div>
+<div class="feature">
+<h3>Flexible Learning</h3>
+<p>Study at your own pace with resources available 24/7 anywhere, anytime.</p>
+</div>
+</section>
+<footer>
+&copy; 2026 Jiggu Education. All rights reserved.
+</footer>
+</body>
+</html>
