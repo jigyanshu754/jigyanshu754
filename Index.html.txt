@@ -9,7 +9,7 @@
 body {
 margin: 0;
 font-family: 'Open Sans', sans-serif;
-background: #f6f8fc;
+background: red;
 color: #222;
 }
 header {
